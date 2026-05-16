@@ -3,6 +3,147 @@
 # dependencies
 node_modules/
 
+# React Native Production `.gitignore`
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Xcode
+build/
+DerivedData/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcworkspace
+
+# Android / IntelliJ / Android Studio
+build/
+.idea/
+.gradle/
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+*.iml
+
+# React Native
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+metro-cache/
+.expo/
+dist/
+web-build/
+
+# Bundles
+*.jsbundle
+
+# Hermes
+hermes-profile-transformer/
+
+# CocoaPods
+ios/Pods/
+vendor/bundle/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/
+fastlane/test_output/
+
+# ENV files
+.env
+.env.*
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.swp
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Testing
+jest-cache/
+junit.xml
+
+# TypeScript
+*.tsbuildinfo
+
+# Firebase
+google-services.json
+GoogleService-Info.plist
+
+# Keystore / Signing
+*.jks
+*.keystore
+*.p12
+*.mobileprovision
+
+# Sentry
+.sentryclirc
+
+# Expo
+.expo-shared/
+
+# Buck
+buck-out/
+.buckd/
+
+# Watchman
+.watchmanconfig
+
+# VSCode
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Yarn Berry
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# Package manager locks (optional)
+# Uncomment based on team policy
+
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+
+# Cache
+.cache/
+.parcel-cache/
+
+# Misc
+*.orig
+*.rej
+
+# Generated assets
+generated/
+
 # Expo
 .expo/
 dist/

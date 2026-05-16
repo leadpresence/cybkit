@@ -39,6 +39,13 @@
     "experiments": {
       "typedRoutes": true,
       "reactCompiler": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "8cf97cb7-7b0e-490b-9a11-8002aac1e8da"
+      }
+    },
+    "owner": "cyberspace.net.ng"
   }
 }
