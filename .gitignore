@@ -178,6 +178,7 @@ yarn-error.*
 *.tsbuildinfo
 
 app-example
+example/
 
 # generated native folders
 /ios
