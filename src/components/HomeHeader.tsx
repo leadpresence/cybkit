@@ -15,6 +15,17 @@ export default function HomeHeader() {
     
 }
 
+export  function LoginHeader() {
+   
+    return (
+        <View style={globalStyles.header}>
+            <Text style={styles.date}>Login to CybKit</Text>
+        </View>
+    )
+
+    
+}
+
 
 const styles = StyleSheet.create({
  
