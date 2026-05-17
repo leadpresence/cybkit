@@ -179,6 +179,7 @@ yarn-error.*
 
 app-example
 example/
+AGENTS.md
 
 # generated native folders
 /ios
