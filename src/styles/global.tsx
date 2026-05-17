@@ -17,6 +17,14 @@ export const globalStyles = StyleSheet.create({
     paddingTop: 60,
     paddingHorizontal: 20,
   },
+   input: {
+    backgroundColor: colors.surface,
+    color: colors.text,
+    padding: 16,
+    borderRadius: 10,
+    fontSize: 16,
+    marginTop: 16,
+  },
   title: {
     fontSize: 28,
     fontWeight: 'bold',
@@ -37,5 +45,18 @@ export const globalStyles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
+  },
+
+  button: {
+    backgroundColor: colors.primary,
+    padding: 16,
+    borderRadius: 10,
+    alignItems: 'center',
+    marginTop: 24,
+  },
+    buttonText: {
+    color: colors.background,
+    fontSize: 16,
+    fontWeight: 'bold',
   },
 });
